@@ -1,0 +1,111 @@
+@import url(./cabecalho.css);
+@import url(./rodape.css);
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Share Tech', sans-serif;
+}
+
+body{
+    background: rgb(1,0,22);
+    background: -moz-linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,40,1) 48%, rgba(29,53,122,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,40,1) 48%, rgba(29,53,122,1) 100%);
+    background: linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,40,1) 48%, rgba(29,53,122,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010016",endColorstr="#1d357a",GradientType=1);
+}
+
+
+.cabecalho .txt-principal{
+    text-decoration: underline;
+}
+
+
+
+.conteudo{ /*CAMPO QUE CONTÉM OS CARDS*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.conteudo .card{ /*CAMPO DO CARD*/
+    background-color: #090b20;
+    width: 400px;
+    border: 8px solid #00000018;
+    margin: 50px 25px 0 25px;
+    border-radius: 20px;
+    padding: 25px;
+
+}
+
+.conteudo h2{ /*TÍTULO DO CARD*/
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.conteudo img{ /*IMAGEM DO CARD*/
+    width: 100%;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #76767612;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.505);
+}
+
+.conteudo figcaption{ /*DESCRIÇÃO DO CARD*/
+    margin-top: 20px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+
+
+    /* BOTÃO "VEJA MAIS" */
+.conteudo button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 16px;
+    width: 95%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 40px 0 0 0 ;
+}
+
+.conteudo button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.conteudo button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.conteudo button:hover span {
+    padding-right: 15px;
+}
+
+.conteudo button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+    /* BOTÃO "VEJA MAIS" */
+
+
+

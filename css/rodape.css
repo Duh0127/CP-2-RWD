@@ -1,0 +1,40 @@
+.rodape{
+    margin-top: 150px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.rodape h2{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.837);
+    text-align: center;
+    user-select: none;
+}
+
+.rodape nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.rodape a{
+    margin-top: 50px;
+    box-shadow: -1px 10px 20px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+.rodape a:hover{
+    transform: scale(1.15);
+    transition: all .5s;
+}
+
+.rodape a:active{
+    transform: rotate(50deg);
+    transition: all .5s;
+}
+
+.rodape img{
+    width: 100px;
+}
