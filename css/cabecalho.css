@@ -3,12 +3,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #24252A;
+    background: rgb(1,0,22);
+    background: linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,0,1) 76%, rgba(0,0,0,0) 100%);
 }
 
 .cabecalho img{
     max-width: 140px;
     padding: 30px 30px;
+    user-select: none;
 }
 
 .cabecalho nav{
@@ -26,12 +28,12 @@
     color: white;
     text-align: center;
     padding: 9.2% 2%;
+    transition: all .3s;
 }
 .cabecalho a:hover{
     border-radius:10px;
     color: rgb(34, 34, 184);
-    box-shadow: 0 0.2px 30px rgb(0, 34, 128);
-    transition: all ease-in-out .3s;
+    transform: scale(1.02);
 }
 
 
