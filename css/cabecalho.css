@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background: rgb(1,0,22);
-    background: linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,0,1) 76%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.508) 76%, rgba(0, 0, 40, 0) 100%);
 }
 
 .cabecalho img{

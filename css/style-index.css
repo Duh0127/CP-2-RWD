@@ -109,3 +109,17 @@ body{
 
 
 
+@media (max-width: 450px){
+    .conteudo figcaption{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1130px){
+    .rodape img{
+        max-width: 80px;
+    }
+    .rodape a{
+        margin: 10px;
+    }
+}
