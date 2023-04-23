@@ -1,5 +1,6 @@
 @import url(./cabecalho.css);
 @import url(./rodape.css);
+@import url(./body.css);
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 *{
@@ -8,3 +9,4 @@
     box-sizing: border-box;
     font-family: 'Share Tech', sans-serif;
 }
+
