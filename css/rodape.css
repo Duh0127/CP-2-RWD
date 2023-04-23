@@ -38,3 +38,13 @@
 .rodape img{
     width: 100px;
 }
+
+
+@media (max-width: 1000px){
+    .rodape img{
+        max-width: 75px;
+    }
+    .rodape a{
+        margin: 10px;
+    }
+}
