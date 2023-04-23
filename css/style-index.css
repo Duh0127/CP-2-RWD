@@ -1,5 +1,6 @@
 @import url(./cabecalho.css);
 @import url(./rodape.css);
+@import url(./body.css);
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 *{
@@ -9,19 +10,10 @@
     font-family: 'Share Tech', sans-serif;
 }
 
-body{
-    background: rgb(1,0,22);
-    background: -moz-linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,40,1) 48%, rgba(29,53,122,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,40,1) 48%, rgba(29,53,122,1) 100%);
-    background: linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,40,1) 48%, rgba(29,53,122,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010016",endColorstr="#1d357a",GradientType=1);
-}
-
 
 .cabecalho .txt-principal{
     text-decoration: underline;
 }
-
 
 
 .conteudo{ /*CAMPO QUE CONTÉM OS CARDS*/
@@ -108,4 +100,10 @@ body{
     /* BOTÃO "VEJA MAIS" */
 
 
+
+@media (max-width: 450px){
+    .conteudo figcaption{
+        font-size: 1rem;
+    }
+}
 
