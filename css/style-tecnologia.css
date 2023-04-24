@@ -40,3 +40,49 @@ body{
     width: 70%;
     text-align: center;
 }
+
+.conteudo hr{
+    width: 76%;
+    margin: 5% auto;
+    border-color: transparent;
+    box-shadow: 8px 5px 5px rgb(88, 88, 223);
+}
+
+.conteudo .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.conteudo .card{
+    background-color: #090b20;
+    width: 400px;
+    border: 8px solid #00000018;
+    margin: 50px 25px 0 25px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.card h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.conteudo img{
+    width: 100%;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #76767612;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.505);
+}
+
+.conteudo figcaption{ /*DESCRIÇÃO DO CARD*/
+    margin-top: 20px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+}
