@@ -39,6 +39,10 @@
     width: 100px;
 }
 
+.rodape a:nth-child(1){
+    background-color: #ffffff;
+}
+
 
 @media (max-width: 1000px){
     .rodape img{
