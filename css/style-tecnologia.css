@@ -21,3 +21,22 @@ body{
     text-decoration: underline;
 }
 
+.descricao-page{
+    align-items: center;
+}
+
+.descricao-page h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 8px 5px 5px rgb(88, 88, 223);
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.descricao-page p{
+    color: #ffffff;
+    margin: 5% auto 0% auto;
+    font-size: 2rem;
+    width: 70%;
+    text-align: center;
+}
