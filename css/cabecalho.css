@@ -37,8 +37,7 @@
 }
 
 
-
-@media (max-width: 639px) {
+@media (max-width: 789px){
     .cabecalho{
         justify-content: center;
     }
@@ -48,8 +47,19 @@
     .cabecalho nav{
         flex-wrap: wrap;
     }
+
+}
+
+@media (max-width: 639px) {
+ 
     .cabecalho a{
-        font-size: 1.3rem;
+        font-size: 1.75rem;
         padding: 10% 0;
+    }
+}
+
+@media (max-width: 485px) {
+    .cabecalho a{
+        font-size: 1.5rem;
     }
 }

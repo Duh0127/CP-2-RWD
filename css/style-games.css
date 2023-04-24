@@ -17,7 +17,7 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010016",endColorstr="#1d357a",GradientType=1);
 }
 
-.cabecalho .txt-principal{
+.cabecalho .txt-games{
     text-decoration: underline;
 }
 
@@ -103,4 +103,18 @@ body{
 
 
 
+@media (max-width: 650px){
+    .conteudo figcaption{
+        font-size: 1.1rem;
+    }
+     .descricao-page p{
+        font-size: 1.50rem;
+    }
+}
+
+@media (max-width: 450px){
+    .conteudo figcaption{
+        font-size: 1rem;
+    }
+}
 
