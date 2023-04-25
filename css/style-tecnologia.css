@@ -38,14 +38,7 @@ body{
     margin: 5% auto 0% auto;
     font-size: 2rem;
     width: 70%;
-    text-align: center;
-}
-
-.conteudo hr{
-    width: 76%;
-    margin: 5% auto;
-    border-color: transparent;
-    box-shadow: 8px 5px 5px rgb(88, 88, 223);
+    text-align: justify;
 }
 
 .conteudo .cards{
@@ -54,6 +47,7 @@ body{
     justify-content: space-evenly;
     width: 90%;
     margin: 0 auto;
+    margin-top: 150px;
 }
 
 .conteudo .card{
