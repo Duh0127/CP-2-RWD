@@ -10,11 +10,9 @@
     font-family: 'Share Tech', sans-serif;
 }
 
-
 .cabecalho .txt-principal{
     text-decoration: underline;
 }
-
 
 .conteudo{ /*CAMPO QUE CONTÉM OS CARDS*/
     display: flex;
@@ -29,7 +27,6 @@
     margin: 50px 25px 0 25px;
     border-radius: 20px;
     padding: 25px;
-
 }
 
 .conteudo h2{ /*TÍTULO DO CARD*/
@@ -53,8 +50,6 @@
     font-size: 1.2rem;
     text-align: justify;
 }
-
-
 
 
     /* BOTÃO "VEJA MAIS" */

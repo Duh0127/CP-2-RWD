@@ -1,5 +1,6 @@
 @import url(./cabecalho.css);
 @import url(./rodape.css);
+@import url(./body.css);
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 *{
@@ -7,14 +8,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Share Tech', sans-serif;
-}
-
-body{
-    background: rgb(1,0,22);
-    background: -moz-linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,40,1) 48%, rgba(29,53,122,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,40,1) 48%, rgba(29,53,122,1) 100%);
-    background: linear-gradient(180deg, rgba(1,0,22,1) 0%, rgba(0,0,40,1) 48%, rgba(29,53,122,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010016",endColorstr="#1d357a",GradientType=1);
 }
 
 .cabecalho .txt-mobile {
@@ -38,14 +31,7 @@ body{
     margin: 5% auto 0% auto;
     font-size: 2rem;
     width: 70%;
-    text-align: center;
-}
-
-.conteudo hr{
-    width: 76%;
-    margin: 5% auto;
-    border-color: transparent;
-    box-shadow: 8px 5px 5px rgb(88, 88, 223);
+    text-align: justify;
 }
 
 .conteudo .cards{
@@ -60,7 +46,7 @@ body{
     background-color: #090b20;
     width: 400px;
     border: 8px solid #00000018;
-    margin: 50px 25px 0 25px;
+    margin: 150px 25px 0 25px;
     border-radius: 20px;
     padding: 25px;
 }
